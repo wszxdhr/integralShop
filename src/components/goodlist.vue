@@ -1,8 +1,8 @@
 <template>
     <ul class="goodbar">
       <goodbartab></goodbartab>
-
     </ul>
+    <!--<div class="barBottom" :style="{'background-color': '#ff5200'}"></div>-->
 
     <section class="good-list">
       <goods :goodsname="'adasdf'" :detail="'adsfadfalksdfjalksdjfa'" :integral="1000" :pic="" :num="213123" v-for="g in 9"></goods>
@@ -50,7 +50,7 @@
     props: ['list','goodbar'],
     data(){
       return{
-//        ]
+
       }
     },
     ready: function () {
